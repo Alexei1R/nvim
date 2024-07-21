@@ -26,8 +26,8 @@ _G.insert_template = function()
     local text = string.format("//\n" ..
         "// Created by toor on %s .\n" ..
         "//\n\n" ..
-        "#ifndef NP_%s\n" ..
-        "#define NP_%s\n\n" ..
+        "#ifndef %s\n" ..
+        "#define %s\n\n" ..
         "#endif\n",
         date_today, file_name, file_name)
 
